@@ -10,7 +10,7 @@ This project demonstrates an **ESP32-based RGB LED controller** featuring multip
 
 ## 🎥 Demo Video
 
-<video src="demo/demo.mp4" controls width="600"></video>
+<video src="https://github.com/haider-ali-1254/Embedded_IOT/blob/master/assignment1-1254/Task%201%20-%20Toggle%20LEDs/demo/demo.mp4?raw=true" controls width="600"></video>
 
 ---
 
