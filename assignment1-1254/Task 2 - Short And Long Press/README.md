@@ -74,6 +74,3 @@ Install these via PlatformIO or Arduino Library Manager before uploading.
 
 ---
 
-## 📦 File Structure
-
-
