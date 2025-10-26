@@ -6,6 +6,10 @@
 
 This project demonstrates an **ESP32-based RGB LED controller** featuring multiple LED modes, an **OLED display interface**, and **button-controlled mode switching** with **hardware interrupts** and **PWM fading effects**.
 
+## Wokwi Link
+https://wokwi.com/projects/445780237269468161
+**Note:** Wokwi uses a different framework, so this code may require adjustments to run properly.
+
 ---
 
 ## 🎥 Demo Video
