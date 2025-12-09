@@ -3,6 +3,10 @@
 **Name:** Haider Ali  
 **Roll Number:** 23-NTU-CS-FL-1254  
 
+## Wokwi Link
+https://wokwi.com/projects/445892094937953281
+**Note:** Wokwi uses a different framework, so this code may require adjustments to run properly.
+
 ---
 
 ## 🧠 Task Overview
