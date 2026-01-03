@@ -1,7 +1,8 @@
 /****************************************************
- * Haider Ali         23-NTU-CS-1254
- * WEEK14-PART2
- * ESP32 + DHT22 + Node(PUBLISHER ONLY)
+ * Haider Ali      23-NTU-CS-1254
+ * WEEK15-PART1-publisher
+ * BSCS-5A
+ * ESP32 + DHT22 + NodeRed (PUBLISHER ONLY)
  * Topic:
  *   home/lab1/temp
  *   home/lab1/hum
@@ -17,12 +18,12 @@ char ssid[] = "Wokwi-GUEST";
 char pass[] = "";
 
 // ---------- MQTT ----------
-const char* mqtt_server = "192.168.100.100";  // Mosquitto / Cloud broker
+const char* mqtt_server = "10.13.66.254";  // Mosquitto / Cloud broker
 const int   mqtt_port   = 1883;
 
 // Topics
-const char* TOPIC_TEMP = "home/lab/temp";
-const char* TOPIC_HUM  = "home/lab/hum";
+const char* TOPIC_TEMP = "home/IoTlab1/temp";
+const char* TOPIC_HUM  = "home/IoTlab1/hum";
 
 // ---------- DHT ----------
 #define DHTPIN  23
@@ -47,7 +48,7 @@ void connectWiFi() {
 void connectMQTT() {
   while (!mqtt.connected()) {
     Serial.print("Connecting to MQTT...");
-    if (mqtt.connect("ESP32_Publisher")) {
+    if (mqtt.connect("Amna_Publisher")) {
       Serial.println("connected");
     } else {
       Serial.print("failed, rc=");
